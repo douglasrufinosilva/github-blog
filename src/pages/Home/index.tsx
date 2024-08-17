@@ -40,7 +40,7 @@ export function Home() {
         setData(response.data)
       } else if (!search) {
         const response = await api.get(
-          'search/issues?q=api%20github%20repo:douglasrufinosilva/github-blog',
+          'search/issues?q=Issues%20para%20repo:douglasrufinosilva/github-blog',
         )
 
         setData(response.data)
